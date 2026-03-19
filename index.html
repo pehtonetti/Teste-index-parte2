@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;0,900;1,400&family=Roboto:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+</head>
+
+<body>
+    <header class="top-header">
+        <span class="logo"> Diagramação - FrontEnd </span>
+    </header>
+
+    <main class="container">
+
+
+        <section class="painel-esquerda">
+            <div class="imagem-principal">
+                    <span class="tag-modulo"> Modulo 1 </span>
+                    <h2 class="conteudo-titulo">Front-end é Essencial</h2>
+            </div>
+
+
+            <div class="conteudo-info">
+
+                <div class="cabecalho-conteudo">
+                    <h2>Fundamentos de HTML e CSS</h2>
+                    <h3>Introdução à Construção de Páginas Web</h3>
+                    <p class="desc-conteudo">Sobre este módulo</p>
+                    <p class="texto">
+                        Neste módulo, você aprenderá as bases essenciais da web.<br>
+                        Entenda como estruturar elementos usando HTML semântico,<br>
+                        aplique estilos modernos e responsivos utilizando CSS puro,<br>
+                        tudo sem depender da complexidade de frameworks externos.<br>
+                        Prepare-se para construir interfaces com confiança total.
+                    </p>
+                </div>
+
+
+                <div class="carrosel-animado">
+                    <p class="carrosel-descri">Carrosel abaixo com as ferramentas que utilizaremos</p>
+
+                    <!-- CARROSSEL ANIMADO INFERIOR-->
+                    <div class="carrosel-wrapper">
+                        <button class="carrosel-btn left" aria-label="Anterior">
+                            < </button>
+
+                                <div class="carrosel-posic-conteiner">
+                                    <ul class="carrosel-posic">
+                                        <li class="carrosel-slide current-slide">
+                                            <div class="slide-card">
+                                                <div class="icon icon-js"> &lt;&lt;</div>
+                                                <span class="text"> Texto </span>
+                                            </div>
+                                        </li>
+                                        <li class="carrosel-slide">
+                                            <div class="slide-card">
+                                                <div class="icon icon-css"> # </div>
+                                                <span class="text"> Texto </span>
+                                            </div>
+                                        </li>
+                                        <li class="carrosel-slide">
+                                            <div class="slide-card">
+                                                <div class="icon icon-html"> &lt;&lt;</div>
+                                                <span class="text"> Texto </span>
+                                            </div>
+                                        </li>
+                                        <li class="carrosel-slide">
+                                            <div class="slide-card">
+                                                <div class="icon icon-api"> { }</div>
+                                                <span class="text"> Texto </span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button class="carrosel-btn right" aria-label="Próximo"> > </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -35,3 +35,6 @@ Interface composta por:
 ✔ Navegação com botões anterior/próximo  
 ✔ Recalculo automático do carrossel ao redimensionar a tela  
 ✔ Uso de variáveis CSS para padronização de cores e fontes  
+
+*PRA TODOS VEREM*
+A ideia principal sobre o single-page é um conceito de layout e diagramação. Uma tela de conteúdo sobre um curso de tecnologia, mostrando umaq imagem principal ao lado esquerdo juntamente de um titulo e subtitulo acompanhado de um texto informativo sobre o titutlo em questão. Na sequencia temos uma descrição sobre o carossel, que possuem 4 blocos, onde apenas dois são visiveis, e existem setas para avançar e retroceder o conteúdo.
